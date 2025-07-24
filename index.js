@@ -56,7 +56,7 @@ window.addEventListener("scroll", ()=>{
         apeearOrDis()
         started = false
     }
-    else if(window.scrollY >= firstSection.offsetTop + firstSection.offsetHeight){
+    else if(window.scrollY >= firstSection.offsetTop - 500 + firstSection.offsetHeight){
         topBtn.style.display = "block"
         console.log("yes")
     }
